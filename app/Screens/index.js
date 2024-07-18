@@ -24,17 +24,14 @@ import BottomTabScreen from "./MainScreens/BottomTabScreen/BottomTabScreen";
 
 
 
-// import FormScreen from "../Screens/MainScreens/ProfileRelated/";
+import FormScreen from "./MainScreens/ProfileRelated/FormScreen";
 
 import About_Guruji from "../Screens/MainScreens/ProfileRelated/About_Guruji";
 import SatyaSadhana from "../Screens/MainScreens/ProfileRelated/SatyaSadhana";
 import UpdateProfile from "../Screens/MainScreens/ProfileRelated/UpdateProfile";
 import DeleteAccount from "../Screens/MainScreens/ProfileRelated/DeleteAccount";
 import ChangePassword from "../Screens/MainScreens/ProfileRelated/ChangePassword";
-import About from "../Screens/MainScreens/ProfileRelated/About";
-import Help from "../Screens/MainScreens/ProfileRelated/Help";
 import PrivacyPolicy from "../Screens/MainScreens/ProfileRelated/PrivacyPolicy";
-import FormScreen from "./MainScreens/ProfileRelated/FormScreen";
 
 // SplashScreen.preventAutoHideAsync();
 export default function Screens() {
@@ -157,8 +154,6 @@ export default function Screens() {
               <Stack.Screen name="FullProfile" component={UpdateProfile} />
               <Stack.Screen name="DeleteAccount" component={DeleteAccount} />
               <Stack.Screen name="ProfilePassword" component={ChangePassword} />
-              <Stack.Screen name="About" component={About} />
-              <Stack.Screen name="Help" component={Help} />
               <Stack.Screen name="Privacy Policy" component={PrivacyPolicy} />
 
             </>

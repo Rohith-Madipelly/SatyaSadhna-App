@@ -66,7 +66,7 @@ const PrivacyPolicy = () => {
     try {
       const res = await PrivacyPolicyAPI(tokenn)
       if (res) {
-        console.log(">>>", res.data)
+        // console.log(">>>", res.data)
         setData(res.data.privacyPolicy)
         setSpinnerbool(false)
       }

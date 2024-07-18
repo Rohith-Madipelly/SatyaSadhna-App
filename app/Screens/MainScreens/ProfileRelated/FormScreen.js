@@ -767,7 +767,7 @@ export default function FormScreen() {
                 // errorColor='magenta'
                 />
 
-                
+
                 <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '80%' }}>
 
                   <CustomPicker
@@ -1331,7 +1331,7 @@ export default function FormScreen() {
                   asterisksymbol={true}
                   boxWidth={'80%'}
                   label={'If yes, kindly bring a fitness certificate from your doctor'}
-                  name='Anyfitnesscertificate' 
+                  name='Anyfitnesscertificate'
                   // value={values.gender}
                   // leftIcon={<FontAwesome name="user" size={20} color="black" />}
                   // bgColor='#e1f3f8'
